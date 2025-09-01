@@ -48,16 +48,31 @@ It provides **interactive visualizations** using **Streamlit** and **Plotly**.
 - "cardiffnlp/twitter-roberta-base-sentiment-latest"
 
 
-## 📦 Requirements
+##  Requirements
 
 Create a virtual environment and install dependencies:
 
-```bash
-python -m venv venv
-source venv/bin/activate     # On macOS/Linux
-venv\Scripts\activate        # On Windows
+##  How to Run
 
-pip install -r requirements.txt
+1. Install **Python 3.9+**  
+   - [Download Python](https://www.python.org/downloads/) and make sure it is added to your PATH.  
+   - Verify installation:
+     ```bash
+     python --version
+     ```
 
-streamlit run app/demo_app.py
+2. Create a virtual environment and install dependencies:
+   ```bash
+   python -m venv venv
+   ```
 
+   ```bash
+   source venv/bin/activate     # On macOS/Linux
+   ```
+   
+   ```bash
+   venv\Scripts\activate        # On Windows
+   ```
+   ```bash
+   pip install -r requirements.txt
+   ```
