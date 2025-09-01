@@ -6,7 +6,7 @@ It provides **interactive visualizations** using **Streamlit** and **Plotly**.
 
 ---
 
-## 🚀 Features
+##  Features
 
 - **Sentiment Analysis**
   - Classifies posts into sentiment categories (Positive, Neutral, Negative).
@@ -26,7 +26,7 @@ It provides **interactive visualizations** using **Streamlit** and **Plotly**.
 
 ---
 
-## 📊 Visualizations
+##  Visualizations
 
 - Sentiment distribution (percentages).  
 - Anti-India posts (bar chart with counts + percentage).  
@@ -34,7 +34,7 @@ It provides **interactive visualizations** using **Streamlit** and **Plotly**.
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Python**
 - **Pandas** (data processing)
@@ -43,8 +43,21 @@ It provides **interactive visualizations** using **Streamlit** and **Plotly**.
 
 ---
 
-## 🛠️ NLP model
+##  NLP model
 
-- ** "cardiffnlp/twitter-roberta-base-sentiment-latest"
+- "cardiffnlp/twitter-roberta-base-sentiment-latest"
 
+
+## 📦 Requirements
+
+Create a virtual environment and install dependencies:
+
+```bash
+python -m venv venv
+source venv/bin/activate     # On macOS/Linux
+venv\Scripts\activate        # On Windows
+
+pip install -r requirements.txt
+
+streamlit run app/demo_app.py
 
