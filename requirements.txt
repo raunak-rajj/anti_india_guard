@@ -1,0 +1,7 @@
+twikit
+pandas
+deep-translator
+langdetect
+transformers
+streamlit
+plotly
