@@ -5,3 +5,4 @@ langdetect
 transformers
 streamlit
 plotly
+torch

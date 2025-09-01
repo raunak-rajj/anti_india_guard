@@ -76,6 +76,15 @@ Create a virtual environment and install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
+
+3. Pre-download the RoBERTa sentiment model (so app doesn’t hang later)
+   ```bash
+   python -c "from transformers import AutoTokenizer, AutoModelForSequenceClassification; \
+   AutoTokenizer.from_pretrained('cardiffnlp/twitter-roberta-base-sentiment-latest'); \
+   AutoModelForSequenceClassification.from_pretrained('cardiffnlp/twitter-roberta-base-sentiment-latest')"
+   ```
+
+4. Run the web app:
    ```bash
    streamlit run app/demo_app.py
    ```
